@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe Article do
   before(:each) do
-  	@article = FactoryGirl.create(:article)
     @attr = { :title => 'Foo Title', :author => 'Foo author', :summary => 'Foo summary', 
       :content => 'Foo content' }
   end
