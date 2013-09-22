@@ -1,4 +1,13 @@
 <div class='main'>
   <h1>News</h1>
-  <p>Hi!</p>
+  <% @articles.each do |a| %>
+
+    <h4><%= link_to a.title, a %></h4>
+    <p><%= a.summary %></p>
+    <p class='dates'>
+      By <%= a.author %> -  
+      <%= a.created_at.strftime("%B %d, %Y") %>
+    </p>
+    <hr>
+  <% end %>
 </div>

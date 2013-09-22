@@ -1,0 +1,6 @@
+<div class='main_content'>
+  <h3><%= @article.title %></h3>
+  <p class='dates'>By <b><%= @article.author %></b></p>
+  <p class='dates'><%= @article.created_at.strftime("%B %d, %Y") %></p>
+  <p><%= @article.content %></p>
+</div>

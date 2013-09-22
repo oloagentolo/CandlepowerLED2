@@ -5,6 +5,12 @@
         1,
         1,
         2,
+        2,
+        null,
+        null,
+        1,
+        2,
+        2,
         null,
         null
       ],
@@ -14,8 +20,13 @@
         null,
         1,
         null
+      ],
+      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/models/article.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1379827789
+    "timestamp": 1379830113
   }
 }
