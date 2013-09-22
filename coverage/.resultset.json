@@ -1,11 +1,8 @@
 {
   "RSpec": {
     "coverage": {
-      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/controllers/pages_controller.rb": [
+      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/controllers/articles_controller.rb": [
         1,
-        1,
-        2,
-        null,
         null
       ],
       "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/controllers/application_controller.rb": [
@@ -14,8 +11,20 @@
         null,
         1,
         null
+      ],
+      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/controllers/pages_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/models/article.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1379814720
+    "timestamp": 1379826761
   }
 }
