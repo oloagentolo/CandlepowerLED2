@@ -1,0 +1,21 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/controllers/pages_controller.rb": [
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/home/tmagent17/Rails_Projects/CandlepowerLED2/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1379811183
+  }
+}

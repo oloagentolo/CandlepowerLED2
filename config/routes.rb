@@ -5,8 +5,12 @@ CandlepowerLED2::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+  root 'pages#home'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
+
+  get 'pages/home'
 
   # Example of named route that can be invoked with purchase_url(id: product.id)
   #   get 'products/:id/purchase' => 'catalog#purchase', as: :purchase
