@@ -23,9 +23,11 @@ div#login_controls {
 }
 
 /* Customize the navbar links to be fill the entire space of the .navbar */
+
 .navbar .navbar-inner {
   padding: 0;
 }
+
 .navbar .nav {
   margin: 0;
   display: table;
@@ -44,10 +46,12 @@ div#login_controls {
   border-left: 1px solid rgba(255,255,255,.75);
   border-right: 1px solid rgba(0,0,0,.1);
 }
+
 .navbar .nav li:first-child a {
   border-left: 0;
   border-radius: 3px 0 0 3px;
 }
+
 .navbar .nav li:last-child a {
   border-right: 0;
   border-radius: 0 3px 3px 0;
@@ -59,4 +63,19 @@ footer {
 
 footer a {
   color: #333333;
+}
+
+/* Carousel text */
+
+.carousel-inner, .item {
+  max-height: 400px;
+}
+
+.carousel-caption h3 {
+  margin-bottom: 0;
+  color: white;
+}
+
+.carousel-caption p {
+  font-size: 16px;
 }

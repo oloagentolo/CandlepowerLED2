@@ -5,6 +5,7 @@
     <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
     <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
+    <%= javascript_include_tag 'bootstrap' %>
   </head>
   <body>
     <div class='container'>
@@ -19,5 +20,15 @@
     </div>
 
     <%= debug(params) if Rails.env.development? %>
+
+    <!-- This script runs carousel upon loading -->
+    <script>
+      !function ($) {
+        $(function(){
+          // carousel demo
+          $('#myCarousel').carousel()
+        })
+      }(window.jQuery)
+    </script>
   </body>
 </html>

@@ -1,3 +1,45 @@
 <div class='main_content'>
-  <h1>Home</h1>
+  <div id='myCarousel' class='carousel slide'>
+    <div class='carousel-inner'>
+      <div class='item active'>
+        <%= gallery_image = image_tag('feature1.png') %>
+        <div class='container'>
+          <div class='carousel-caption'>
+            <h3>Welcome to Candlepower LED!</h3>
+            <p class='lead'>Glad you can visit! Please stay tuned as this site continues to undergo development.</p>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <%= gallery_image = image_tag('feature2.png') %>
+        <div class='container'>
+          <div class='carousel-caption'>
+            <h3>Quality without compromise</h3>
+            <p class='lead'>All of our products are carefully hand-made to specifications.</p>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <%= gallery_image = image_tag('feature3.png') %>
+        <div class='container'>
+          <div class='carousel-caption'>
+            <h3>Unrivaled luminosity</h3>
+            <p class='lead'>Brighter is better. Here at Candlepower LED, we specialize in this!</p>
+          </div>
+        </div>
+      </div>
+      <div class='item'>
+        <%= gallery_image = image_tag('feature4.png') %>
+        <div class='container'>
+          <div class='carousel-caption'>
+            <h3>Our customer base</h3>
+            <p class='lead'>We are not just a national vendor, but an international one as well!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class='left carousel-control' href='#myCarousel' data-slide='prev'>&lsaquo;</a>
+    <a class='right carousel-control' href='#myCarousel' data-slide='next'>&rsaquo;</a>
+
+  </div>
 </div>
