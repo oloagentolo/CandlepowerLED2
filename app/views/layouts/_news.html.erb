@@ -1,20 +1,10 @@
   <!-- The content pulled for the news section will be top 3 news results from database -->
 <div class='row-fluid'>
-  <div class="span4">
-    <h4>Bright Light Tech is now Candlepower LED</h4>
-    <p>Please note that we have changed our name from Bright Light Tech to Candlepower LED and that all further operations will begin under our new name!</p>
-    <a class="btn disabled">More</a>
-  </div>
-
-  <div class="span4">
-    <h4>Our Mission</h4>
-    <p>Our mission is to provide our customers with unparalleled LED lighting products that outcompete our competitors in terms of workmanship quality, luminosity, and visual appeal.</p>
-    <a class="btn disabled">More</a>
-  </div>
-
-  <div class="span4">
-    <h4>"What's up with your site?"</h4>
-    <p>Our site is currently under development.  For now, you can continue to get a peek of our progress here on Heroku.  We will be up and running soon so please stay tuned!</p>
-    <a class="btn disabled">More</a>
-  </div>
+  <% @articles.each do |a| %>
+    <div class='span4'>
+      <h4><%= a.title %></h4>
+      <p><%= a.summary %></p>
+      <%= link_to 'More', a, class: 'btn' %>
+    </div>
+  <% end %>
 </div>
